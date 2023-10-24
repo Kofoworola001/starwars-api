@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/index.css">
+    <title>Star Wars</title>
+  </head>
+  <body style="background-image: url(./Images/pexels-pixabay-274937.jpg);">
+    <div>
+      <h1 style="text-align: center; margin-top: 2rem;">STAR WARS CHARACTER</h1>
+    </div>
+
+    <div class="full-img" id="fullImgBox">
+      <img src="Images/Beru Whitesun Lars.jpeg" alt="" id="fullImg">
+      <span onclick="closeFullImg()">X</span>
+
+      <div id="character-data-display"></div>
+    </div>
+
+    
+      <div class="img-gallery">
+        <img onclick="openFullImg(this.src)" src="Images/Beru Whitesun Lars.jpeg" data-character="Beru Whitesun Lars">
+        <img onclick="openFullImg(this.src)" src="Images/Biggs Darklighter.jpeg" data-character="Biggs Darklighter">
+        <img onclick="openFullImg(this.src)" src="Images/Luke Skywalker, 23 years old.jpeg" data-character="Luke Skyewalker">
+        <img onclick="openFullImg(this.src)" src="Images/leia.png" data-character="Leia Organza">
+        <img onclick="openFullImg(this.src)" src="Images/ewan.png" data-character="Obi-Wan Kenobi">
+        <img onclick="openFullImg(this.src)" src="Images/c-3po.png" data-character="C-3PO">
+        <img onclick="openFullImg(this.src)" src="Images/Owen Lars (Episodes II, III - Joel Edgerton).jpeg" data-character="Owen Lars">
+        <img onclick="openFullImg(this.src)" src="Images/Prints.jpeg" data-character="Darth Vader">
+        <img onclick="openFullImg(this.src)" src="Images/r5-d4.jpeg" data-character="R5-D4">
+        <img onclick="openFullImg(this.src)" src="Images/Rebels_R2-D2.webp" data-character="R2-D2">
+        
+      </div>
+
+
+
+
+
+
+  <script src="./script/index.js"></script>
+  </body>
+</html>
